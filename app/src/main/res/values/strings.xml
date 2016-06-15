@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Help me superman</string>
+    <string name="but_1">전화해요</string>
+    <string name="but_2">보디가드</string>
+    <string name="but_3">살려줘요</string>
+    <string name="but_4">조심해요</string>
 </resources>

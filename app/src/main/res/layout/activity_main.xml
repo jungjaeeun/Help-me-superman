@@ -6,7 +6,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="15dp"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="10dp"
+    android:paddingTop="15dp"
     tools:context="kr.hs.emirim.wodms5772.helpmesuperman.MainActivity"
     android:orientation="vertical"
     android:background="#cdf2f5"
@@ -48,17 +48,20 @@
         >
 
         <Button
+            android:layout_marginLeft="40dp"
             android:id="@+id/call"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/but_1"/>
+            android:text="@string/but_1"
+            android:layout_marginRight="3dp"/>
 
 
         <Button
             android:id="@+id/bodyguard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/but_2"/>
+            android:text="@string/but_2"
+            android:layout_marginRight="3dp"/>
 
 
         <Button
@@ -66,13 +69,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_3"
-            />
-
-        <Button
-            android:id="@+id/watch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/but_4"
             />
 
     </LinearLayout>

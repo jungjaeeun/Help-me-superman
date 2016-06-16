@@ -53,7 +53,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_1"
-            android:layout_marginRight="3dp"/>
+            android:layout_marginRight="3dp"
+            android:onClick="call_me" />
 
 
         <Button
@@ -61,7 +62,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_2"
-            android:layout_marginRight="3dp"/>
+            android:layout_marginRight="3dp"
+            android:onClick="bodyguard" />
 
 
         <Button
@@ -69,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_3"
-            />
+            android:onClick="help" />
 
     </LinearLayout>
 

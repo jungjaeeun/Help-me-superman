@@ -8,46 +8,73 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="10dp"
     tools:context="kr.hs.emirim.wodms5772.helpmesuperman.MainActivity"
-    android:orientation="horizontal">
+    android:orientation="vertical"
+    android:background="#cdf2f5"
+    android:weightSum="1">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="M  E  N  U"
         android:textSize="30dp"
         android:gravity="center"
-        />
-    <!--<ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/superman"/>-->
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
 
-    <Button
-        android:id="@+id/call"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/but_1"/>
-
-
-    <Button
-        android:id="@+id/bodyguard"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/but_2"/>
-
-
-    <Button
-        android:id="@+id/help"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/but_3"
         />
 
-    <Button
-        android:id="@+id/watch"
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/superman"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/but_4"
-        />
+        >
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/but_1"/>
+
+
+        <Button
+            android:id="@+id/bodyguard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/but_2"/>
+
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/but_3"
+            />
+
+        <Button
+            android:id="@+id/watch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/but_4"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>

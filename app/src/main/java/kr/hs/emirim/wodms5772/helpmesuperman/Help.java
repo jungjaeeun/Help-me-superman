@@ -13,20 +13,19 @@ import java.net.URI;
  * Created by appcreate29 on 2016. 6. 16..
  */
 public class Help extends MainActivity {
-    @Override
-
+    //@Override
+    MediaPlayer mp;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.help_me);
+        mp = MediaPlayer.create(Help.this, R.raw.song);
     }
 
     public void sound(View v) {
-        MediaPlayer mp = MediaPlayer.create(Help.this, R.raw.song);
         mp.start();
     }
 
     public void sound_1(View v) {
-        MediaPlayer mp = MediaPlayer.create(Help.this, R.raw.song);
         mp.pause();
     }
 

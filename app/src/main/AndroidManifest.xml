@@ -15,6 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="CallMe"/>
+        <activity android:name="BodyGuard"/>
+        <activity android:name="Help"/>
+        <activity android:name="Calling"/>
     </application>
 
 </manifest>

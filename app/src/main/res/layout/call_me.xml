@@ -20,7 +20,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/call_1"
-            android:background="#ffffff"/>
+            android:background="#ffffff"
+            android:onClick="father_1" />
     </LinearLayout>
 
     <LinearLayout
@@ -42,7 +43,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/call_1"
-            android:background="#ffffff" />
+            android:background="#ffffff"
+            android:onClick="father_2" />
     </LinearLayout>
 
     <LinearLayout

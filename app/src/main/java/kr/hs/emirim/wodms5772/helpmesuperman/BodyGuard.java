@@ -26,5 +26,6 @@ public class BodyGuard extends AppCompatActivity {
 
         AlertDialog.Builder alert=new AlertDialog.Builder(this);
         alert.setMessage(position+"이 등록되었습니다!");
+        alert.show();
     }
 }
